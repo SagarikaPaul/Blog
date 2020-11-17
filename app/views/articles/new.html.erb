@@ -1,4 +1,7 @@
 <%= form_with scope: :article, url: articles_path,local: true do |form| %>
+
+<h1>Title should be more than 5 characters</h1>
+
   <p>
     <%= form.label :title %><br>
     <%= form.text_field :title %>
